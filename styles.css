@@ -411,7 +411,7 @@ footer {
     flex-direction: column;
     background: linear-gradient(180deg, #000000, #006400);
     box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
-    width: 450px;
+    width: 350px;
     height: 350px;
     color: var(--White);
     padding: 5px;
@@ -440,7 +440,14 @@ footer {
 .whatsapp-link a {
     color: var(--White);
     font-size: 1.5rem;
-    
+}
+
+.whatsapp-link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-link.grow {
+    transform: scale(1.5);
 }
 
 .whatsapp-icon {
